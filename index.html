@@ -3,47 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Movies Cinema</title>
+    <title>Netflex</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Link Swiper CSS -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <!-- Website icon -->
+    <link rel="shortcut icon" href="url (https://seeklogo.com/images/M/movie-time-cinema-logo-8B5BE91828-seeklogo.com.png)" type="image/x-icon">
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
-            <div class="navbar-left">
-                <h1 class="website-text">Moviee</h1>
-            </div>
-            <div class="navbar-center">
-                <a class="navbar-title" href="">Home</a>
-                <a class="navbar-title" href="">Hot</a>
-                <a class="navbar-title" href="">Upcoming</a>
-                <a class="navbar-title" href="">About</a>
-            </div>
-            <div class="navbar-right">
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                Net<span>Flex</span>
+            </a>
+            <!-- User account -->
+            <a href="#" class="user">
+                <img src="./Img/profile-avt.png" alt="" class="user-account-img">
+            </a>
+            <!-- Navbar menu section -->
+            <div class="menu-section">
+                <a href="#home" class="nav-link nav-active">
+                    <i class='bx bx-home'></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bxs-hot'></i>
+                    <span class="nav-link-title">Trending</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-tv' ></i>
+                    <span class="nav-link-title">Movies</span>
+                </a>
             </div>
         </div>
+    </header>
+    <!-- Home section -->
+    <section class="home container" id="home">
+        <!-- Main Movie Image -->
+        <img src="./Img/image-8.jpg" alt="" class="home-img">
+        <!-- Home Text -->
+        <div class="home-text">
+            <h1 class="home-title">Tết Ở <br>Làng Địa Ngục</h1>
+            <p>Releasing 23 October</p>
+            <a href="#" class="watch-btn">
+                <i class='bx bx-right-arrow' ></i>
+                <span>Watch the trailer</span>
+            </a>
+        </div>
+    </section>
+    <!-- Home End -->
 
-        <div class="slideshow-container">
+    <!-- Trending section -->
+    <section class="trending container" id="trending">
+        <!-- Heading -->
+        <div class="heading">
+            <h2 class="heading-title">Trending Movies</h2>
+        </div>
+        <!-- Contents -->
+        <div class="popular-content swiper">
+            <div class="swiper-wrapper">
+                <!-- Movies Box 1 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="./Img/image-6.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">M3GAN</h2>
+                            <span class="movie-type">Science Fiction, Horror</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movies Box 1 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="./Img/image-7.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">M3GAN</h2>
+                            <span class="movie-type">Science Fiction, Horror</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movies Box 1 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="./Img/image-3.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">M3GAN</h2>
+                            <span class="movie-type">Science Fiction, Horror</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movies Box 1 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="./Img/image-4.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">M3GAN</h2>
+                            <span class="movie-type">Science Fiction, Horror</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 3</div>
-              <img src="Img/movie1.jpg" style="width:100%">
-              <div class="text">Caption Text</div>
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
-              <img src="Img/movie2.jpg" style="width:100%">
-              <div class="text">Caption Two</div>
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
-              <img src="img_mountains_wide.jpg" style="width:100%">
-              <div class="text">Caption Three</div>
-            </div>
-            </div>
-            <br>
-    </div>
+
+                <!-- Movies Box 1 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="./Img/image-6.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">M3GAN</h2>
+                            <span class="movie-type">Science Fiction, Horror</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movies Box 1 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="./Img/image-6.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">M3GAN</h2>
+                            <span class="movie-type">Science Fiction, Horror</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movies Box 1 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="./Img/image-6.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">M3GAN</h2>
+                            <span class="movie-type">Science Fiction, Horror</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movies Box 8 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="./Img/image-6.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">M3GAN</h2>
+                            <span class="movie-type">Science Fiction, Horror</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+
+<!-- Link Swiper JS -->
+    <script src="./js/swiper-bundle.min.js"></script>
+<!-- Link JS file -->
+    <script src="./js/app.js"></script>
 </body>
-<script src="./app.js"></script>
 </html>
